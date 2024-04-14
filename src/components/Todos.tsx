@@ -1,4 +1,3 @@
-import React from "react";
 import { PiTrashSimpleBold } from "react-icons/pi";
 import { FaCheck } from "react-icons/fa";
 import { Todo as TodoType } from "./Todos.type";

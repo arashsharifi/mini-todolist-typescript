@@ -1,4 +1,3 @@
-import React from "react";
 import TodosWrappers from "./components/TodosWrappers";
 
 const App = () => {

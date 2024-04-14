@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Todos from "./Todos";
 import TodoForm from "./TodoForm";
 import { Todo as TodoType } from "./Todos.type";
@@ -55,7 +55,7 @@ const TodosWrappers = () => {
   }
 
   return (
-    <div className=" flex flex-col gap-5 p-5 bg-gray-950 rounded-md w-[30%]">
+    <div className=" flex flex-col gap-5 p-5 bg-gray-950 rounded-md w-[70%] md:w-[30%] ">
       <TodoForm addTodoHandler={addTodoHandler} />
       {todos.map((todo) => (
         <Todos
